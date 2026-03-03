@@ -64,8 +64,9 @@ public class Main {
                     case 0 -> System.exit(0);
                 }
             } catch (Exception e) {
-                System.out.println("❌ " + e.getMessage());
+                System.out.println("ERROR!!! " + e.getMessage());
             }
         }
     }
 }
+
